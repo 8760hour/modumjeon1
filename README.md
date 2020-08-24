@@ -29,5 +29,3 @@ Controller : 위의 업무의 데이터를 송/수신 하기위해 Controller, S
 
 ### (3) MyBatis
 필요한 쿼리문을 MyBatis로 사용할 수 있도록 구현
-
-결과물
