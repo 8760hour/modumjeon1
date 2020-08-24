@@ -20,14 +20,14 @@
 (2) 사용자들이 쉽게 접근할 수 있도록 도메인을 생성하고 SSL 인증서를 적용시켜 보안성을 높임
 
 ## 3. Spring 프레임워크 전반적 구현
-# (1) MVC 패턴 구현
+### (1) MVC 패턴 구현
 MODEL : JAVA BEANS
 VIEW : APACH TOMCAT을 서버로 사용하여 JSP 구현
 Controller : 위의 업무의 데이터를 송/수신 하기위해 Controller, Service, Dao, Dto구현
-# (2) MAVEN
+### (2) MAVEN
 필요한 라이브러리 사용
 
-# (3) MyBatis
+### (3) MyBatis
 필요한 쿼리문을 MyBatis로 사용할 수 있도록 구현
 
 결과물
