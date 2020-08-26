@@ -16,11 +16,12 @@
 ![전국폴리곤](https://user-images.githubusercontent.com/64400666/91262965-2c7c7800-e7ab-11ea-9079-49a428a017a0.png)
 
 (3) 멀티 폴리곤은 하나의 폴리곤으로 인식하도록 구현
-
 ![멀티폴리곤수정](https://user-images.githubusercontent.com/64400666/91263004-2e463b80-e7ab-11ea-9d70-db52fbbab9c7.gif)
-(4) 폴리곤을 클릭할 시 해당 시에 대한 가맹점을 검색 및 조회할 수 있도록 구현
-(5) 가맹점이 어디에 밀집되어 있는지, 몇 개가 있는지 알기 쉽도록 클러스터로 구현
 
+(4) 폴리곤을 클릭할 시 해당 시에 대한 가맹점을 검색 및 조회할 수 있도록 구현
+![검색 및 조회](https://user-images.githubusercontent.com/64400666/91265899-f986b400-e7ab-11ea-911a-33af387f396c.png)
+
+(5) 가맹점이 어디에 밀집되어 있는지, 몇 개가 있는지 알기 쉽도록 클러스터로 구현
 ![클러스터](https://user-images.githubusercontent.com/64400666/91263648-5cc41680-e7ab-11ea-9456-18a0c6c08638.png)
 
 ## 2. 문의 사항, 도메인 및 SSL 인증서
