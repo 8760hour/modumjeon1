@@ -11,9 +11,17 @@
 # 프로젝트에서의 담당 업무
 ## 1. 지도관련
 (1) [경기데이터드림](https://data.gg.go.kr/portal/data/village/selectServicePage.do?infId=3NPA52LBMO36CQEQ1GMY28894927&infSeq=1&sigunFlag=41270)에서 지역 화폐 가맹점 현황을 JSON으로 가져와 프로젝트에 불러옴
+
 (2) QGIS와 [행정구역데이터](http://www.gisdeveloper.co.kr/?p=2332)를 이용해 폴리곤을 생성하여 카카오 지도에 표시함
-(3) 폴리곤을 클릭할 시 해당 시에 대한 가맹점을 검색 및 조회할 수 있도록 구현
-(4) 가맹점이 어디에 밀집되어 있는지, 몇 개가 있는지 알기 쉽도록 클러스터로 구현
+![전국폴리곤](https://user-images.githubusercontent.com/64400666/91262965-2c7c7800-e7ab-11ea-9079-49a428a017a0.png)
+
+(3) 멀티 폴리곤은 하나의 폴리곤으로 인식하도록 구현
+
+![멀티폴리곤수정](https://user-images.githubusercontent.com/64400666/91263004-2e463b80-e7ab-11ea-9d70-db52fbbab9c7.gif)
+(4) 폴리곤을 클릭할 시 해당 시에 대한 가맹점을 검색 및 조회할 수 있도록 구현
+(5) 가맹점이 어디에 밀집되어 있는지, 몇 개가 있는지 알기 쉽도록 클러스터로 구현
+
+![클러스터](https://user-images.githubusercontent.com/64400666/91263648-5cc41680-e7ab-11ea-9456-18a0c6c08638.png)
 
 ## 2. 문의 사항, 도메인 및 SSL 인증서
 (1) 자신의 이메일을 사용하지 않고 SMTP와 SSL 인증서를 이용하여 관리자에게 이메일을 전송할 수 있도록 구현
