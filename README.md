@@ -56,14 +56,14 @@
 ![도메인_SSL](https://user-images.githubusercontent.com/64400666/91267203-cf35f600-e7ad-11ea-9975-b3cb1510f5ee.png)
 
 ## 3. Spring 프레임워크 전반적 구현
-### * MVC 패턴 구현
+* ### MVC 패턴 구현
 MODEL : JAVA BEANS
 VIEW : APACH TOMCAT을 서버로 사용하여 JSP 구현
 Controller : 위의 업무의 데이터를 송/수신 하기위해 Controller, Service, Dao, Dto구현
-### * MAVEN
+* ### MAVEN
 SpringFramework, Servlet, Mybatis, junit 등 필요한 라이브러리 사용
 
-### * MyBatis
+* ### MyBatis
 게시판 정보 불러오기, 데이터 가져오기 등 필요한 쿼리문을 MyBatis로 사용할 수 있도록 구현
 
 # 기대 효과
