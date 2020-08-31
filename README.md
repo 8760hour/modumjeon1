@@ -8,8 +8,32 @@
 지역 화폐 가맹점을 카카오 지도 API를 이용하여 클러스터와 마커로 나타내고 리스트로 출력
 지역화폐 사용량 및 충전량, 연령별 사용빈도 등 분석 및 예측
 
+# 모둠전이란?
+## 지역 화폐와 장점
+![슬라이드7](https://user-images.githubusercontent.com/64400666/91744267-301d5e00-ebf4-11ea-9067-cdb06564f996.PNG)
+
+## 기획의도
+![슬라이드8](https://user-images.githubusercontent.com/64400666/91744361-59d68500-ebf4-11ea-9aa2-7504af874b98.PNG)
+
+## 개발 도구
+![슬라이드9](https://user-images.githubusercontent.com/64400666/91744396-6955ce00-ebf4-11ea-8480-305924e7f832.PNG)
+
+# DataBase
+## DB 설계
+![슬라이드11](https://user-images.githubusercontent.com/64400666/91744499-91ddc800-ebf4-11ea-882b-194957aa8937.PNG)
+![슬라이드12](https://user-images.githubusercontent.com/64400666/91744553-a3bf6b00-ebf4-11ea-8b5b-c142dbde0105.PNG)
+
+## 데이터 적재
+![슬라이드13](https://user-images.githubusercontent.com/64400666/91744592-afab2d00-ebf4-11ea-8cc6-4a876bfc5f00.PNG)
+![슬라이드14](https://user-images.githubusercontent.com/64400666/91744616-b639a480-ebf4-11ea-937d-071fad955104.PNG)
+![슬라이드15](https://user-images.githubusercontent.com/64400666/91744642-be91df80-ebf4-11ea-9646-321abb7826fc.PNG)
+![슬라이드16](https://user-images.githubusercontent.com/64400666/91744664-c5b8ed80-ebf4-11ea-9979-50451aee929e.PNG)
+
+## 데이터 보완
+![슬라이드17](https://user-images.githubusercontent.com/64400666/91744699-d1a4af80-ebf4-11ea-917f-a9ee5b855ad3.PNG)
+
 # 프로젝트에서의 담당 업무
-## 1. 지도관련
+## 1. 가맹점 찾기
 (1) [경기데이터드림](https://data.gg.go.kr/portal/data/village/selectServicePage.do?infId=3NPA52LBMO36CQEQ1GMY28894927&infSeq=1&sigunFlag=41270)에서 지역 화폐 가맹점 현황을 JSON으로 가져와 프로젝트에 불러옴
 
 (2) QGIS와 [행정구역데이터](http://www.gisdeveloper.co.kr/?p=2332)를 이용해 폴리곤을 생성하여 카카오 지도에 표시함
@@ -41,3 +65,6 @@ SpringFramework, Servlet, Mybatis, junit 등 필요한 라이브러리 사용
 
 ### (3) MyBatis
 게시판 정보 불러오기, 데이터 가져오기 등 필요한 쿼리문을 MyBatis로 사용할 수 있도록 구현
+
+# 기대 효과
+![슬라이드25](https://user-images.githubusercontent.com/64400666/91744830-057fd500-ebf5-11ea-9b89-055d263c2c28.PNG)
